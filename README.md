@@ -1,4 +1,4 @@
-Quantifying dispersity in size and shapes of nanoparticles from small-angle scattering data using machine learning based CREASE
+Quantifying Dispersity in Size and Shapes of Nanoparticles from Small-Angle Scattering Data using Machine Learning based CREASE
 =======================================================================================================================================
 
 Brief Description  
@@ -8,7 +8,12 @@ This repository contains Python scripts for the implementation of the CREASE gen
 
 ![Alt text](docs/CREASE_README_Slide.png)
 
+A brief description of all the codes included in this repository is provided below.
 
+Quantifying Size Dispersity for Spherical Nanoparticles
+----------------------------------------------------------
+
+**Spheres_Size_Dispersity/fastcalcIq_sphere.m** This MATLAB script calculates the azimuthally averaged (1D) scattering profile for an input 3D representation of spherical nanoparticles generated using the [CASGAP](https://github.com/arthijayaraman-lab/casgap) method.  
 
 
 
