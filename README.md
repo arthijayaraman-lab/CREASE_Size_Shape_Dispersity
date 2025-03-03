@@ -1,4 +1,4 @@
-Case Study I: Analyzing Small Angle Scattering Profiles (1D) from Soft Materials with Dispersity in Particle Size and Shapes using CREASE
+Quantifying dispersity in size and shapes of nanoparticles from small-angle scattering data using machine learning based CREASE
 =======================================================================================================================================
 
 In this case study, we use the CREASE method to analyze the dispersity in both the size and shapes of nanoparticles from their 1D scattering profile. The CREASE method as used in this study is pictorially represented in **Figure 1**.
