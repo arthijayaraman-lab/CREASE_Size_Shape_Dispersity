@@ -3,7 +3,7 @@ Quantifying dispersity in size and shapes of nanoparticles from small-angle scat
 
 In this case study, we use the CREASE method to analyze the dispersity in both the size and shapes of nanoparticles from their 1D scattering profile. The CREASE method as used in this study is pictorially represented in **Figure 1**.
 
-![Alt text](docs/CasestudyI_CREASE_Loop.png)
+![Alt text](docs/CREASE_README_Slide.pdf)
 
    Figure 1.: The CREASE method to analyze the dispersity in size and shape of nanoparticles from their 1D scattering profiles.
 
