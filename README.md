@@ -13,8 +13,6 @@ A brief description of all the codes included in this repository is provided bel
 Quantifying Size Dispersity in Spherical Nanoparticles
 ----------------------------------------------------------
 
-**Spheres_Size_Dispersity/fastcalcIq_sphere.m** This MATLAB script calculates the azimuthally averaged (1D) scattering profile for an input 3D representation of spherical nanoparticles with a distribution of particle sizes generated using the [CASGAP](https://github.com/arthijayaraman-lab/casgap) method.
-
 **Spheres_Size_Dispersity/xgboost_training.py** This Python script contains the Bayseian optimization and training of the XGBoost machine learning (ML) model for the case of spherical nanoparticles with dispersity only in particle size.
 
 **Spheres_Size_Dispersity/crease1d_ga_script.py** This Python script contains the implementation of CREASE-GA for identifying size distributions (output) of spherical nanoparticles using their 1D experimental scattering profile (input). The GA ranks multiple candidate solutions ('GA individuals') based on how closely their computed scattering profiles (obtained using the trained XGBoost ML model) match the input experimental profile.
@@ -22,13 +20,6 @@ Quantifying Size Dispersity in Spherical Nanoparticles
 Quantifying Size and Shape Dispersity in Spherical and Ellipsoidal Nanoparticles
 -----------------------------------------------------------------------------------
 
-**Ellipsoids_Spheres_Size_Shape_Dispersity/fastcalcIq_sphere.m** This MATLAB script calculates the azimuthally averaged (1D) scattering profile for an input 3D representation of spherical and ellipsoidal nanoparticles with a distribution of particle sizes and shapes generated using the CASGAP method.
-
 **Ellipsoids_Spheres_Size_Shape_Dispersity/xgboost_training.py** This Python script contains the Bayseian optimization and training of the XGBoost machine learning (ML) model for the case of spherical and ellipsoidal nanoparticles with dispersity in particle sizes and shapes.
 
 **Ellipsoids_Spheres_Size_Dispersity/crease1d_ga_script.py** This Python script contains the implementation of CREASE-GA for identifying size and shape distributions (output) of spherical and ellipsoidal nanoparticles using their 1D experimental scattering profile (input). The GA ranks multiple candidate solutions ('GA individuals') based on how closely their computed scattering profiles (obtained using the trained XGBoost ML model) match the input experimental profile.
-
-
-
-
-
