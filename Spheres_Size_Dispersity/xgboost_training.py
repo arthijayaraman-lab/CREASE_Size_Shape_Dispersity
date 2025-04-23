@@ -18,7 +18,7 @@ from skopt import BayesSearchCV
 from sklearn.utils import shuffle
 
 #access the dataset 
-df = pd.read_csv('train_dataset.csv')
+df = pd.read_csv('train_dataset_spheres.csv')
 df = df.dropna()
 df_shuffled = shuffle(df, random_state=189)
 X = df_shuffled.drop(columns=['sample id','I_q'])
